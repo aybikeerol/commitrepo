@@ -1,0 +1,27 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.text {
+  color: red;
+  font-weight: 600;
+}
+
+.box1 > .text {
+  color: blue;
+}
+
+.active {
+  background: blue;
+  color: white;
+  display: block;
+}
+
+a:disabled,
+a[disabled] {
+  background-color: aqua;
+  cursor: none;
+  pointer-events: none;
+}
