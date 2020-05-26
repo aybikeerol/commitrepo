@@ -70,7 +70,7 @@ class CategoryList extends Component {
                     this.toggleDisabled(item.categoryName);
                   }}
                 >
-                  Disabled Toggle
+                  Disabled
                 </button>
                 <FontAwesomeIcon icon={this.isLocked(item.categoryName)} />
               </div>
